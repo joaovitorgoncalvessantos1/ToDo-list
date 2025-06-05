@@ -22,6 +22,20 @@ Um projeto simples e moderno de lista de tarefas desenvolvido com **HTML, CSS e 
 - CSS3 (com variáveis)
 - JavaScript puro (Vanilla JS)
 
+
+📚 Aprendizados
+Durante este projeto, pratiquei:
+
+Criação de interfaces modernas com CSS
+
+Manipulação de elementos no DOM com JavaScript
+
+Estruturação de componentes reutilizáveis
+
+🙋‍♂️ Autor
+João Vitor Gonçalves Santos
+LinkedIn • GitHub
+
 ## 🚀 Como executar
 
 1. Clone o repositório:
