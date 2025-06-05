@@ -14,7 +14,7 @@ Um projeto simples e moderno de lista de tarefas desenvolvido com **HTML, CSS e 
 
 ## 📸 Preview
 
-![preview](./assets/img/preview.png) 
+![preview](./assets/img/preview..png) 
 
 ## 💻 Tecnologias usadas
 
