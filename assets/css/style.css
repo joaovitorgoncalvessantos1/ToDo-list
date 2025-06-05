@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@100..900&display=swap');
+
+:root {
+  --corDoBg: #1E2026;
+  --corTitulos: #828182;
+  --CorDetalhes: #4F328C;
+  --fonte: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fonte);
+  background-color: var(--corDoBg);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--corDoBg);
+  padding: 1rem;
+}
+
+.titulo {
+  color: var(--corTitulos);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+input {
+  max-width: 400px;
+  height: 50px;
+  padding: 0 1rem;
+  border-radius: 5px;
+  border: 2px solid var(--CorDetalhes);
+  background-color: var(--corDoBg);
+  color: var(--corTitulos);
+  font-size: 1.2rem;
+  outline: none;
+}
+
+input::placeholder {
+  color: #777;
+}
+
+input:hover,
+input:focus {
+  border-color: #8b5cf6;
+  box-shadow: 0 0 8px #4F328C;
+}
+
+button {
+  max-width: 400px;
+  height: 50px;
+  padding: 0 1rem;
+  border-radius: 5px;
+  border: 2px solid var(--CorDetalhes);
+  background-color: var(--CorDetalhes);
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: var(--fonte);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #8b5cf6;
+  box-shadow: 0 0 10px #8b5cf6;
+}
+button:active {
+  background-color: #7c3aed;
+  box-shadow: inset 0 0 10px #7c3aed;
+}
